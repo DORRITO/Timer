@@ -47,5 +47,10 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/
             }
         ]
-    }
+    },
+    sassLoader: {
+        includePaths: [
+            path.resolve(__dirname, './node_module/foundation-sites/scss')
+        ]
+    },
 };
